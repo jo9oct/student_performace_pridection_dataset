@@ -1,0 +1,65 @@
+{
+    "model_name": "RandomForest",
+    "problem_type": "classification",
+    "target": "Pass_Fail",
+    "cv_results": {
+        "LogisticRegression": {
+            "cv_mean_accuracy": 0.826905759975159,
+            "cv_std_accuracy": 0.041857683774783765,
+            "test_accuracy": 0.7676056338028169,
+            "precision": 0.75,
+            "recall": 0.8028169014084507,
+            "f2_score": 0.7916666666666666,
+            "roc_auc": 0.8698670898631224,
+            "confusion_matrix": [
+                [
+                    52,
+                    19
+                ],
+                [
+                    14,
+                    57
+                ]
+            ]
+        },
+        "RandomForest": {
+            "cv_mean_accuracy": 0.8870672255860891,
+            "cv_std_accuracy": 0.04099149368422021,
+            "test_accuracy": 0.8732394366197183,
+            "precision": 0.8117647058823529,
+            "recall": 0.971830985915493,
+            "f2_score": 0.9349593495934959,
+            "roc_auc": 0.9775838127355684,
+            "confusion_matrix": [
+                [
+                    55,
+                    16
+                ],
+                [
+                    2,
+                    69
+                ]
+            ]
+        },
+        "SVM": {
+            "cv_mean_accuracy": 0.8163173420276355,
+            "cv_std_accuracy": 0.027131181256450292,
+            "test_accuracy": 0.7816901408450704,
+            "precision": 0.7380952380952381,
+            "recall": 0.8732394366197183,
+            "f2_score": 0.842391304347826,
+            "roc_auc": 0.8887125570323349,
+            "confusion_matrix": [
+                [
+                    49,
+                    22
+                ],
+                [
+                    9,
+                    62
+                ]
+            ]
+        }
+    },
+    "test_accuracy": 0.8732394366197183
+}

@@ -1,0 +1,78 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# =========================
+# Data Files
+# =========================
+# Track all raw data
+!data/raw/
+# Ignore interim and cleaned data
+data/raw/
+data/cleaned/
+data/processed/
+# =========================
+# OS files
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+*.code-workspace
+.idea/
+
+# =========================
+# Logs and temp files
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Python packaging
+# =========================
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*.local
+
+# =========================
+# Jupyter checkpoints / temp
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
